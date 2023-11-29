@@ -1,31 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TANNER GOODS</title>
-    <link rel="stylesheet" href="./style/style.scss" />
-  </head>
-  <body>
-    <nav class="nav__container">
-      <img src="./images/tanner_logo.svg" alt="tanner_logo" class="nav__logo" />
-      <ul class="nav__list">
-        <li class="nav__list__item">
-          <a href="#navy" class="nav__list__item__text">Navy Salt</a>
-        </li>
-        <li class="nav__list__item">
-          <a href="#voyager" class="nav__list__item__text">Voyager</a>
-        </li>
-        <li class="nav__list__item">
-          <a href="#drifter" class="nav__list__item__text">Drifter</a>
-        </li>
-        <li class="nav__list__item">
-          <a href="#collection" class="nav__list__item__text">Collection</a>
-        </li>
-        <li class="nav__list__item">
-          <a href="#contact" class="nav__list__item__text">Collection</a>
-        </li>
-      </ul>
-    </nav>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TANNER GOODS</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style/style.css" />
+</head>
+
+<body>
+  <nav class="nav__container">
+    <img src="./images/tanner_logo.svg" alt="tanner_logo" class="nav__logo" />
+    <ul class="nav__list">
+      <li class="nav__list__item">
+        <a href="#navy" class="nav__list__item__text active">
+          <hr class="small__line" />
+          Navy Salt
+          <div class="dot"></div>
+        </a>
+      </li>
+      <li class="nav__list__item">
+        <a href="#voyager" class="nav__list__item__text">Voyager</a>
+      </li>
+      <li class="nav__list__item">
+        <a href="#drifter" class="nav__list__item__text light__text">Drifter</a>
+      </li>
+      <li class="nav__list__item">
+        <a href="#collection" class="nav__list__item__text light__text">Collection</a>
+      </li>
+      <li class="nav__list__item">
+        <a href="#contact" class="nav__list__item__text light__text">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="banner__container__one">
+    <div class="first__banner__text__container">
+      <div class="number__list__container">
+        <i class="ri-arrow-up-s-line up__icon"></i>
+        <i class="ri-arrow-down-s-line down__icon"></i>
+        <div class="vl"></div>
+        <ul class="number__list">
+          <li class="number__list__item active__number">01</li>
+          <li class="number__list__item">02</li>
+          <li class="number__list__item">03</li>
+          <li class="number__list__item">04</li>
+          <li class="number__list__item">05</li>
+        </ul>
+      </div>
+      <div class="header__text__container">
+        <p class="sub__header">Design for utility</p>
+        <h1 class="main__header">Navy salt & Pepper</h1>
+        <div class="small__header">
+          <hr class="small__line" />
+          <span>Gear UP</span>
+          <i class="ri-arrow-right-s-line"></i>
+        </div>
+      </div>
+    </div>
+    <img src="./images/banner/banner__image1.svg" alt="banner__image1" class="first__banner__image">
+  </div>
+  <div class="banner__container__two">
+    <img src="./images/banner/banner__image2.svg" alt="banner__image2" class="second__banner__image">
+    <div class="second__banner__text__container">
+      <div class="second__banner__header">
+        <h1 class="second__banner__header__text">Voyager Daypack</h1>
+        <p class="second__banner__sub__text">Navy salt & pepper</p>
+      </div>
+      <div class="second__banner__body">
+        <p class="second__banner__body__text">Whether you're stomping around outdoors or traversing the city, our
+          Voyager Daypack was designed to be adaptable in all envirionments. Compact, lightweight and a comfortable for
+          people of all sizes, this silhouette is versatile enough.</p>
+          <div class="white__space"></div>
+          <img src="./images/down.png" alt="down__arrow" class="down__arrow">
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
